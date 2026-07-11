@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    background-color: #234e70;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo-container span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#menu {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.navigation {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+}
+
+.navigation.open {
+    display: flex;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color .3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* ================= MAIN ================= */
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: start;
+}
+
+main h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.courses {
+    grid-column: 1 / -1;
+}
+
+/* ================= CARDS ================= */
+.card {
+    min-height: 400px;
+}
+
+.card,
+.courses {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card h2,
+.courses h2 {
+    background-color: #234e70;
+    color: white;
+    text-align: center;
+    padding: .75rem;
+}
+
+/* ================= ABOUT ================= */
+
+.about {
+    padding: 20px;
+}
+
+.about p {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* ================= STUDENT PHOTO ================= */
+
+.student-photo {
+    display: block;
+    width: 200px;
+    max-width: 90%;
+    margin: 30px auto;
+    border-radius: 8px;
+}
+
+/* ================= COURSE BUTTONS ================= */
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 15px;
+}
+
+.buttons button {
+    padding: .7rem;
+    border: 1px solid #999;
+    background: #eee;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.buttons button:hover,
+.buttons button.active {
+    background: #234e70;
+    color: white;
+}
+
+/* ================= COURSE CARDS ================= */
+
+#course-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0 15px 15px;
+}
+
+.course-card {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .75rem;
+    text-align: center;
+    background: #ddd;
+    font-weight: bold;
+}
+
+.course-card.completed {
+    background: #234e70;
+    color: white;
+}
+
+.course-title {
+    font-size: .9rem;
+    margin-top: .4rem;
+}
+
+.course-credits {
+    font-size: .85rem;
+    margin-top: .3rem;
+}
+
+#total-credits {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px 20px;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    background-color: #234e70;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: transparent;
+    margin-bottom: 15px;
+}
+
+.socialmedia img {
+    width: 36px;
+    height: 36px;
+    transition: transform .2s;
+}
+
+.socialmedia img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+#lastModified {
+    color: yellow;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 767px) {
+
+    .buttons {
+        grid-template-columns: 1fr;
+    }
+
+    #course-cards {
+        grid-template-columns: 1fr;
+    }
+}

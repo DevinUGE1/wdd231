@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    main h1,
+    .courses {
+        grid-column: auto;
+    }
+
+    .buttons {
+        grid-template-columns: 1fr;
+    }
+
+    #course-cards {
+        grid-template-columns: 1fr;
+    }
+}
