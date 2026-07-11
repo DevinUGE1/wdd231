@@ -1,3 +1,4 @@
+/*W01 Assignment: Course Home Page by Devin Gamboa Enciso*/
 const menuButton = document.querySelector("#menu");
 const navigation = document.querySelector(".navigation");
 

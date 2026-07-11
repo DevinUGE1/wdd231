@@ -1,3 +1,4 @@
+/*W01 Assignment: Course Home Page by Devin Gamboa Enciso*/
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@ body {
     margin: 0 auto;
 }
 
-/* ================= HEADER ================= */
+/* HEADER */
 
 header {
     background-color: #234e70;
@@ -65,7 +66,7 @@ nav a:hover {
     background-color: #555;
 }
 
-/* ================= MAIN ================= */
+/* MAIN */
 
 main {
     display: grid;
@@ -85,7 +86,7 @@ main h1 {
     grid-column: 1 / -1;
 }
 
-/* ================= CARDS ================= */
+/* CARDS */
 .card {
     min-height: 400px;
 }
@@ -106,7 +107,7 @@ main h1 {
     padding: .75rem;
 }
 
-/* ================= ABOUT ================= */
+/* ABOUT */
 
 .about {
     padding: 20px;
@@ -117,7 +118,7 @@ main h1 {
     text-align: justify;
 }
 
-/* ================= STUDENT PHOTO ================= */
+/* STUDENT PHOTO */
 
 .student-photo {
     display: block;
@@ -127,7 +128,7 @@ main h1 {
     border-radius: 8px;
 }
 
-/* ================= COURSE BUTTONS ================= */
+/* COURSE BUTTONS */
 
 .buttons {
     display: grid;
@@ -152,7 +153,7 @@ main h1 {
     color: white;
 }
 
-/* ================= COURSE CARDS ================= */
+/* COURSE CARDS */
 
 #course-cards {
     display: grid;
@@ -191,7 +192,7 @@ main h1 {
     padding: 10px 20px 20px;
 }
 
-/* ================= FOOTER ================= */
+/* FOOTER */
 
 footer {
     background-color: #234e70;
@@ -227,7 +228,7 @@ footer p {
     color: yellow;
 }
 
-/* ================= MOBILE ================= */
+/* MOBILE */
 
 @media (max-width: 767px) {
 

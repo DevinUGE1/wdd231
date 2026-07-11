@@ -1,3 +1,4 @@
+/*W01 Assignment: Course Home Page by Devin Gamboa Enciso*/
 const courses = [
     {
         subject: "CSE",
