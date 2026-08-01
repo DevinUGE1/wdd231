@@ -1,5 +1,5 @@
 const cards = document.getElementById("cards");
-const membersUrl = "https://DevinUGE1.github.io/wdd231/chamber/data/members.json";
+const membersUrl = "https://devinuge1.github.io/wdd231/chamber/data/members.json";
 const gridViewButton = document.getElementById("gridView");
 const listViewButton = document.getElementById("listView");
 
