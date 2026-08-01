@@ -1,3 +1,4 @@
+/*W02 Assignment: Chamber Directory Page by Devin Gamboa Enciso*/
 const cards = document.getElementById("cards");
 const membersUrl = "https://devinuge1.github.io/wdd231/chamber/data/members.json";
 const gridViewButton = document.getElementById("gridView");
