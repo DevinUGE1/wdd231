@@ -1,0 +1,74 @@
+{
+  "companies": [
+    {
+      "company_name": "Apex Cybersecurity SP",
+      "address": "1578 Paulista Avenue, Bela Vista, São Paulo, SP, Brazil",
+      "email": "contact@apexcyber.com.br",
+      "phone_number": "+55 11 3300-3300",
+      "website_url": "https://www.apexcyber.com.br",
+      "image_url": "./images/apex-cybersecurity.webp",
+      "international": false,
+      "membership_level": 2
+    },
+    {
+      "company_name": "Nova Logistics Brazil",
+      "address": "418 Funchal Street, Vila Olímpia, São Paulo, SP, Brazil",
+      "email": "support@novalogistics.com.br",
+      "phone_number": "+55 11 4000-0000",
+      "website_url": "https://www.novalogistics.com.br",
+      "image_url": "./images/nova-logistics.webp",
+      "international": true,
+      "membership_level": 3
+    },
+    {
+      "company_name": "Onça Express Transport",
+      "address": "12901 United Nations Avenue, Brooklin Paulista, São Paulo, SP, Brazil",
+      "email": "operations@oncatransport.com.br",
+      "phone_number": "+55 11 3203-3010",
+      "website_url": "https://www.oncatransport.com.br",
+      "image_url": "./images/onca-transport.webp",
+      "international": true,
+      "membership_level": 3
+    },
+    {
+      "company_name": "Betina Store",
+      "address": "800 Oscar Freire Street, Cerqueira César, São Paulo, SP, Brazil",
+      "email": "customerservice@betinastore.com.br",
+      "phone_number": "+55 11 3213-3310",
+      "website_url": "https://www.betinastore.com.br",
+      "image_url": "./images/betina-store.webp",
+      "international": false,
+      "membership_level": 1
+    },
+    {
+      "company_name": "Vortex Tech Solutions",
+      "address": "2232 Brigadeiro Faria Lima Avenue, Itaim Bibi, São Paulo, SP, Brazil",
+      "email": "sales@vortexsolutions.com.br",
+      "phone_number": "+55 11 3123-5010",
+      "website_url": "https://www.vortexsolutions.com.br",
+      "image_url": "./images/vortex-solutions.webp",
+      "international": true,
+      "membership_level": 2
+    },
+    {
+      "company_name": "Paulista Medical Center",
+      "address": "200 Vergueiro Street, Liberdade, São Paulo, SP, Brazil",
+      "email": "appointments@paulistamedicalcenter.com.br",
+      "phone_number": "+55 11 3444-3312",
+      "website_url": "https://www.paulistamedicalcenter.com.br",
+      "image_url": "./images/paulista-medical-center.webp",
+      "international": false,
+      "membership_level": 3
+    },
+    {
+      "company_name": "Elegant Emporium",
+      "address": "150 Figueiras Street, Pinheiros, São Paulo, SP, Brazil",
+      "email": "contact@elegantemporium.com.br",
+      "phone_number": "+55 11 3222-2121",
+      "website_url": "https://www.elegantemporium.com.br",
+      "image_url": "./images/elegant-emporium.webp",
+      "international": false,
+      "membership_level": 1
+    }
+  ]
+}
